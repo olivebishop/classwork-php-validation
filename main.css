@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mulish:wght@400;500;700&family=Playfair+Display:wght@800&family=Poppins:wght@500;700;800&family=Roboto:ital,wght@0,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Mulish","Poppins","Kaushan","Playfair Display","roboto", sans-serif;
+    background-color:white;
+    color:b;
+}
+
+ h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Kaushan';
+    padding-top: 15px;
+    color: red;
+ }
+span{
+    color: orange;
+}
+
+a {
+
+    float: right;
+
+    background: rgb(183, 225, 233);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    color: black;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+ 
+
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #2E8B57;
+  color: white;
+  border-radius: 3px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+.msg {
+  margin: 30px auto; 
+  padding: 10px; 
+  border-radius: 5px; 
+  color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
